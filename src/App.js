@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import Rates from './Rates';
 import './App.css';
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
         </div>
         
       </div>
+    </div>
+    <div className='container'>
+      <Rates />
     </div>
     </>
   );
