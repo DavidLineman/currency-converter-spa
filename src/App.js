@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Rates from './Rates';
 import './App.css';
 
+
 function App() {
   return (
     <>
@@ -17,17 +18,16 @@ function App() {
         <div className='col-12 col-md-6'>
           <label>Amount</label>
           <input type="number"></input>
-            <div className="btn-group">
-              <button type="button" className="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Action
-              </button>
-              <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Action</a></li>
-                <li><a className="dropdown-item" href="#">Another action</a></li>
-                <li><a className="dropdown-item" href="#">Something else here</a></li>
-                <li><a className="dropdown-item" href="#">Separated link</a></li>
-              </ul>
-            </div>
+          <Dropdown>
+            <Dropdown.Toggle variant="success" id="dropdown-basic">
+              Currency
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item href="#/action-1">USD</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Euro</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </div>
         
       </div>
