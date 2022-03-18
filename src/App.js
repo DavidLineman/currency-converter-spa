@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import Rates from './Rates';
 import './App.css';
+import Form from './Form';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 
 function App() {
@@ -16,8 +18,7 @@ function App() {
     <div className='container'>
       <div className='row'>
         <div className='col-12 col-md-6'>
-          <label>Amount</label>
-          <input type="number"></input>
+          <Form />
           <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">
               Currency

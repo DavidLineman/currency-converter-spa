@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import Dropdown from 'react-bootstrap/Dropdown';
+
 
 
 class Form extends React.Component {
@@ -10,7 +10,12 @@ class Form extends React.Component {
 
   render() {
     return(
-      
+      <>
+      <label>Amount</label>
+      <input type="number"></input>
+      </>
     )
   }
 }
+
+export default Form;
