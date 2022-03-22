@@ -11,8 +11,9 @@ class Form extends React.Component {
   render() {
     return(
       <>
-      <label>Amount</label>
-      <input type="number"></input>
+        <label>Amount</label>
+        <input type="number"></input>
+        <button type='submit' className='btn btn-success'>Convert!</button>
       </>
     )
   }

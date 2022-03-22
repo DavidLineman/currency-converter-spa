@@ -1,5 +1,8 @@
 import React from "react";
 
+
+
+
 class Rates extends React.Component {
   constructor(props) {
     super(props);
@@ -9,7 +12,7 @@ class Rates extends React.Component {
     return( 
     
       <div className="container">
-        <h1>Hello MotherFuck!</h1>
+        <p className='converted-currency'></p>
       </div>
     
   );

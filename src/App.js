@@ -25,8 +25,8 @@ function App() {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">USD</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Euro</Dropdown.Item>
+              <Dropdown.Item href="#/action-1">USD to Euro</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Euro to USD</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </div>
