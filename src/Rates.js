@@ -1,8 +1,6 @@
 import React from "react";
 
 
-
-
 class Rates extends React.Component {
   constructor(props) {
     super(props);
